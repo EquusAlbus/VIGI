@@ -1,0 +1,19 @@
+button:hover {
+    color:white;
+    background-color: black;
+}
+
+div p:nth-child(2) {
+    background: red;
+}
+
+
+article p:nth-child(odd) { 
+    background: red;
+}
+table, tr, td {
+    border: 1px solid black;
+}
+table tr:first-child {
+    background: grey
+}

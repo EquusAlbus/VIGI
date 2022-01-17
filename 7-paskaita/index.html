@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form autocomplete="on">
+        <input type="checkbox">
+        <input type="text" value="Vardas" placeholder="pavarde" maxlength="3">
+        <input type="submit">
+        <input type="date" > <br>
+        <textarea cols="5" rows="3"></textarea>
+        <label for="cars"Choose a car:></label>
+        <select name="cars" id="cars" size="2">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes" selected>Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <form action="submit_endpoint">
+        <fieldset>
+            <label for="fname"> first name:</label>
+            <input type="text" id="fname" name="fname"><br> <br>
+            <label for="lname"> last name:</label>
+            <input type="text" id="lname" name="lname"><br> <br>
+            <label for="birthday"> birthday</label>
+            <input type="date" id="birthday" max="2022-01-15" name="birthday"><br> <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="10"><br> <br>
+            <label for="salary">salary</label>
+            <input type="number" step="0.1"></input> <br> <br>
+            <input type="file" id="file" name="file" multiple> <br> <br>
+           <input type="submit" value="Send">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/*
+header {
+    text-align: justify;
+}
+header img {
+    height: 50px;
+}
+
+nav {
+    background-color: rgb(41, 204, 41);
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+section.grey {
+    padding: 20px;
+    background: #eee;
+
+
+
+section h2 {
+    background-color: rgb(41, 204, 41);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+*/
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.pagrindas {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: block;
+    background-color: green;
+    width: 1000px;
+    height: 40px;
+    
+}
+.home {
+    margin-right: 50px;
+    margin-left: 325px;
+    
+}
+.about {
+    margin-right: 50px;
+    margin-left: 50px;    ;
+}
+.contact {
+    margin-right: 325px;
+    margin-left: 50px;
+}
+.miskas {
+    width: 1000px;
+    padding: 20px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+}
+section {
+    text-align: justify;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main {
+    background-color: gray;
+}
+section h2 {
+    background-color: green;
+    width: 95%;
+    margin: 20px;
+    color: white;
+}
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+    background-color: greenyellow;
+}
+footer h2 {
+    background-color: green;
+    width: 95%;
+    margin: 20px;
+    margin-top: 25px;
+    color: white;
+}

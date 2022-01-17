@@ -1,0 +1,48 @@
+form input, form textarea {
+  /*  padding: 5px 10px;
+    margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px ridge black;*/
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    padding: 5px 5px 5px 0;
+}
+
+
+
+h1 {
+    color: black;
+    text-align: center;
+    }
+body {
+    background-image: url(https://papers.co/wallpaper/papers.co-mc78-wallpaper-blue-mountains-23-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 500px;
+    margin-top: 40px;
+    padding: 40px;
+   
+}
+input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 1px solid aqua;
+}
+button {
+    background-color: #333;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+}

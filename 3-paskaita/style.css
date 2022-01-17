@@ -1,0 +1,36 @@
+header {
+    color: green;
+    background-color: crimson;
+}
+header {
+    color: rgb(218, 179, 185);
+}
+
+.red {
+color: red
+}
+.green {
+color: green
+}
+
+li {
+    color:hotpink
+}
+
+#ypatingasis {
+    color: indigo;
+    background-color: gray;
+    width: 150px;
+}
+/* svarbus prioritetas klasifikatoriams. uzejus rodo prioriteta*/
+
+.relative-width {
+    width: 50%;
+    max-width: 350px;
+background-color: gray;
+}
+
+.absolute-width {
+    width: 250px;
+background-color: firebrick;
+}
