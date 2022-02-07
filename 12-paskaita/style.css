@@ -1,0 +1,33 @@
+.flexas {
+    display: flex;
+    background-color: rgb(219, 92, 19);
+    margin: 20px;
+    color: white;
+    
+}
+.flexas header {
+    flex-grow: 2;
+
+}
+.flexas aside {
+    flex-grow: 2;
+}
+.flexas article, .flexas footer {
+    flex-grow: 1;
+}
+
+.gridas {
+    display: grid;
+    background-color: rgb(121, 121, 201) ;
+    margin: 20px;
+    grid-template-rows: 10vh 10vh;
+    grid-template-columns: 25% 25% 12,5% 12,5% ;
+    grid-template-areas:  "vienas vienas du du" 
+                          "vienas vienas trys keturi" ;
+    gap: 1em;    
+}
+
+header { grid-area: vienas; }
+aside { grid-area: du;}
+article {grid-area: trys;}
+footer { grid-area: keturi;}

@@ -1,0 +1,8 @@
+body {
+    background-image: url(pic.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+form {
+    max-width: 50%;
+}
